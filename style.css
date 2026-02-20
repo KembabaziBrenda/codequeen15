@@ -1,10 +1,19 @@
-*{
+/* *{
     background-color: bisque;
 
-}
+} */
 h1{
     color: brown;
 }
 img{
     width: 350px;
+}
+
+.ReadingtheBible{
+    color: aqua;
+
+}
+
+.sites{
+    background-color: rgb(102, 70, 29);
 }
