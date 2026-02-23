@@ -1,7 +1,7 @@
-/* *{
-    background-color: bisque;
-
-} */
+*{
+    margin: 0;
+    padding: 0;
+}
 h1{
     color: brown;
 }
@@ -16,4 +16,28 @@ img{
 
 .sites{
     background-color: rgb(102, 70, 29);
+}
+#sample{
+    background-color: aqua;
+    border: 5px solid;
+}
+
+.first{
+    border-style: dotted;
+    margin: 10px 15px;
+    padding: 30px;
+}
+
+/*my flex properties*/
+.container{
+    background-color:azure;
+
+}
+
+.child{
+    background-color: beige;
+    display: flex;
+   /* flex-direction: row;
+    gap: 10px;*/
+    justify-content: space-between;
 }
