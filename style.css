@@ -34,10 +34,42 @@ img{
 
 }
 
-.child{
-    background-color: beige;
+.child1{
+      background-color: beige;
     display: flex;
    /* flex-direction: row;
-    gap: 10px;*/
+    /* gap: 10px; */
     justify-content: space-between;
+}
+
+/* child2 */
+.child2{
+    border:3px brown solid;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Flex-items{
+    border:rgb(102, 37, 14) solid;
+    margin: 5px;
+    height: 80px;
+    width: 100px;
+    
+}
+
+.mine{
+    color: lightsalmon;
+}
+
+.child3{
+   border:2px grey solid;
+   display: flex;
+}
+
+img{
+    width:30px;
+    border-radius: 50%;
+    align-items:center;
 }
