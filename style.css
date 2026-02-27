@@ -68,8 +68,13 @@ img{
    display: flex;
 }
 
-img{
+.online{
     width:30px;
     border-radius: 50%;
     align-items:center;
+}
+
+/* bootstrap work */
+.Counselor{
+    background-color:midnightblue;
 }
